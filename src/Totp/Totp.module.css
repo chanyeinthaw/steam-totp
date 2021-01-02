@@ -1,0 +1,26 @@
+.locker {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.locker * {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    width: 100px;
+}
+
+.code span {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
